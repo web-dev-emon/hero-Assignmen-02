@@ -2,6 +2,24 @@
 .container {
     width: 1140px;
     margin: auto;
+        font-family: 'Inter', sans-serif;
 
+}
+/* nav section */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+font-weight: bold;
+}
+.list-style{
+    opacity: 50%;
 }
 

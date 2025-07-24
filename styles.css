@@ -59,7 +59,8 @@ display: flex;
 }
 .banner-text {
     width: 50%; 
-    
+    margin: 0;
+    padding: 0;
 }
 /* plant part */
 .plant-text{
@@ -76,13 +77,13 @@ display: flex;
 .plant-card{
    width: 270px;
    height: 485px;
-   
    align-content: center;
 margin-bottom: 20px;
 }
 .plant-card img{
     width: 270px;
     height: 322px;
+    margin-bottom: 20px;
 }
 .plant-text{
     text-align: center;
@@ -106,4 +107,11 @@ font-weight: 500;
 .plant-text h3 {
 font-size: 22px;
 font-weight: 700;
+}
+.plant-card-section-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 50px;
+
 }

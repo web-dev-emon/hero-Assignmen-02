@@ -24,7 +24,7 @@ font-family: 'Inter', sans-serif;
     opacity: 50%;
 }
 /* banner */
-main h1 span{
+.banner-text span{
     font-size: 65px;
     font-weight: 700;
     color: rgb(233, 90, 8);
@@ -32,24 +32,78 @@ main h1 span{
     font-family: 'Noto Serif', serif;
 }
 main h1{
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 700;
-    
-    font-weight: 900;
+    font-weight: 800;
     font-family: 'Noto Serif', serif;
+   
 }
 main p{
    color: rgba(0, 0, 0, 0.5);
-font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-size: 22px;
 font-weight: 400;
+text-align: ;
+
 }
+
 .banner {
 display: flex;
 
-background-color: aqua;
+
+}
+.banner-image{
+    display: flex;
+    gap: 0;
+  
 }
 .banner-text {
-    width: 50%;   
+    width: 50%; 
+    
 }
+/* plant part */
+.plant-text{
+    text-align: center;
+   
+}
+.plant-text h1 span{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+      color: rgb(233, 90, 8);
 
+}
+.plant-card{
+   width: 270px;
+   height: 485px;
+   
+   align-content: center;
+margin-bottom: 20px;
+}
+.plant-card img{
+    width: 270px;
+    height: 322px;
+}
+.plant-text{
+    text-align: center;
+    
+}
+.plant-text button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(233, 90, 8);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+    border: none;
+  
+}
+.plant-text h4 {
+font-size: 22px;
+font-weight: 500;
+}
+.plant-text h3 {
+font-size: 22px;
+font-weight: 700;
+}

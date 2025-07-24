@@ -2,7 +2,7 @@
 .container {
     width: 1140px;
     margin: auto;
-        font-family: 'Inter', sans-serif;
+        
 
 }
 /* nav section */
@@ -18,8 +18,38 @@
     list-style: none;
     gap: 48px;
 font-weight: bold;
+font-family: 'Inter', sans-serif;
 }
 .list-style{
     opacity: 50%;
+}
+/* banner */
+main h1 span{
+    font-size: 65px;
+    font-weight: 700;
+    color: rgb(233, 90, 8);
+    font-weight: 900;
+    font-family: 'Noto Serif', serif;
+}
+main h1{
+    font-size: 65px;
+    font-weight: 700;
+    
+    font-weight: 900;
+    font-family: 'Noto Serif', serif;
+}
+main p{
+   color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+}
+.banner {
+display: flex;
+
+background-color: aqua;
+}
+.banner-text {
+    width: 50%;   
 }
 

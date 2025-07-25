@@ -338,6 +338,7 @@ footer {
     .container {
         width: 400px;
         margin: auto;
+        align-items: center;
       
     }
     .list-style {
@@ -405,6 +406,16 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
+.badge-section{
+    flex-direction: column;
+}
+.badge-text{
+    max-width: 400px;
+    height: 600px;
+   line-break: loose;
+   
+}
+
 
 }
 

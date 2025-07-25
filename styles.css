@@ -178,7 +178,6 @@ margin-bottom: 80px;
     
 }
 
-
 .offer-card img {
     
     display: block;
@@ -331,3 +330,82 @@ footer {
     color: rgba(0, 0, 0, 0.5);
     font-family: 'Inter', sans-serif;
 }
+
+/* ...................responsive media query................... */
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 400px;
+        margin: auto;
+      
+    }
+    .list-style {
+        opacity: 0%;
+    }
+    .nav-list {
+        flex-direction: row;
+       
+        align-items: center;
+        gap: 20px;
+    }
+    .banner {
+        flex-direction: column-reverse;
+        
+    }
+    .banner-text{
+        width: 100%;
+        text-align: left;
+        margin: 20px;
+        
+    }
+    .plant-text{
+        text-align: center;
+    }
+    .plant-card-section-1{
+        display:grid;
+        width: 100px;
+        height: auto;
+        grid-template-columns: repeat(2,2fr );
+    }
+    .offer-card-section{
+        flex-direction: column;
+    }
+    .offer-card-ii img{
+        position: relative;
+        width: 360px;
+        height: 175px;
+    }
+    .offer-text-ii{
+         width: 300px;
+    font-size: 22px;
+    font-size: bold;
+    font-weight: 500;
+    font-family: 'Noto Serif', serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.05);
+       
+    }
+    /* .news-letter img{
+     width: 360px;
+        height: 175px;
+    position: relative;
+    } */
+.news-letter-text{
+    font-size: 20px;
+    width: 250px;
+   align-items: none;
+}
+footer{
+    flex-direction: column;
+    gap: 20px;
+}
+
+}
+
+

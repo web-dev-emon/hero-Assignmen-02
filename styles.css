@@ -44,13 +44,12 @@ main p{
 font-family: 'Inter', sans-serif;
 font-size: 22px;
 font-weight: 400;
-text-align: ;
+
 
 }
 
 .banner {
 display: flex;
-
 
 }
 .banner-image{
@@ -141,7 +140,7 @@ font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
 
-
+/* lates deals */
  
 .latest-deals  span {
     font-size: 50px;
@@ -187,6 +186,7 @@ margin-bottom: 80px;
     
 }
 .offer-text  {
+     width: 300px;
     font-size: 22px;
     font-size: bold;
     font-weight: 500;
@@ -197,7 +197,7 @@ margin-bottom: 80px;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.05);
     
     
 }
@@ -231,9 +231,10 @@ margin-bottom: 80px;
     
 }
 .offer-text-ii {
+    width: 600px;
     font-size: 40px;
     font-size: bold;
-    font-weight: 600;
+    font-weight: 600px;
     font-family: 'Noto Serif', serif;
     position: absolute;
     top: 50%;
@@ -252,7 +253,7 @@ margin-bottom: 80px;
 /* news-letter */
 .news-letter img { 
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 550px;
     
    
@@ -261,7 +262,7 @@ margin-bottom: 80px;
     position: relative;
     width: 100%;
     height: 550px;
-    
+    margin-bottom: 50px;
 
 }
 .news-letter-text{
@@ -284,18 +285,49 @@ margin-bottom: 80px;
     border: none;
     width: 500px;
     height: 50px;
-    border-radius: 5px;
-    padding-left: 20px;
+   
+   
     font-size: 20px;
     font-family: 'Inter', sans-serif;
 }
 .news-letter-text button{
     width: 200px;
-    height: 50px;
+    height: 51px;
     background-color: rgb(233, 90, 8);
     color: white;
     font-weight: bold;
     font-size: 20px;
     border: none;
   
+}
+footer {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links {
+    display: grid;
+    grid-column: 1;
+    list-style: none;
+    gap: 30px;
+    font-family: 'Inter', sans-serif;
+
+}
+.footer-social-icons img{
+    margin-left: 20px ;
+}
+.footer-text  p {
+    width: 400px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Inter', sans-serif;
+}
+.footer-links a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Inter', sans-serif;
 }
